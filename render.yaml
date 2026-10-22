@@ -1,0 +1,7 @@
+services:-type:web
+name:laboratorium-eda
+runtime:python
+plan:free
+buildCommand:pipinstall-rrequirements.txt
+startCommand:streamlitrunapp.py--server.address0.0.0.0--server.port$PORT--server.
+headlesstrue
