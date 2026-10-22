@@ -22,9 +22,9 @@ def wyczysc_dane(df):
 
 def podsumowanie(df):
     return {
-        "liczba_zamowien": len(df),
-        "suma_sprzedazy": df["wartosc"].sum(),
-        "srednia_wartosc": df["wartosc"].mean(),
+        "liczba": len(df),
+        "suma": df["wartosc"].sum(),
+        "srednia": df["wartosc"].mean(),
         "mediana": df["wartosc"].median(),
     }
 
