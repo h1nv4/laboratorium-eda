@@ -42,7 +42,7 @@ streamlit run app.py
 Otwórz adres wyświetlony w terminalu, zazwyczaj http://localhost:8501.
 Aplikacja online
 
-Link do aplikacji: WSTAW TUTAJ SWÓJ LINK Z RENDERA
+Link do aplikacji: https://laboratorium-eda-j2th.onrender.com
 
 Wnioski
 
