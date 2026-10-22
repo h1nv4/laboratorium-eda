@@ -39,7 +39,7 @@ df_filtr = df[
 
 wyniki = podsumowanie(df_filtr)
 
-c1, c2, c3 = st.columns(3)
+c1, c2, c3, c4 = st.columns(4)
 
 c1.metric(
     "Liczba zamowien",
@@ -54,6 +54,11 @@ c2.metric(
 c3.metric(
     "Srednia wartosc",
     f'{wyniki["srednia"]:.2f} zl'
+)
+
+c4.metric(
+    "Mediana",
+    f'[df_filtr["wartosc"].median():.2f] zl'
 )
 
 st.subheader("Sprzedaz wedlug kanalu")
