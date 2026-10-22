@@ -58,7 +58,7 @@ c3.metric(
 
 c4.metric(
     "Mediana",
-    f'[df_filtr["wartosc"].median():.2f] zl'
+    f'{pd.to_numeric(df_filtr["wartosc"]).median():.2f} zl'
 )
 
 st.subheader("Sprzedaz wedlug kanalu")
